@@ -7,6 +7,8 @@ function App() {
 
   const [puppies, setPuppies] = useState(puppyList)
 
+  console.log("puppyList: ", puppyList);
+
   return (
     <>
       <div>
@@ -15,7 +17,7 @@ function App() {
             return <p>{puppy.name}</p>
           })
         };
-        
+
       </div>
     </>
   )
